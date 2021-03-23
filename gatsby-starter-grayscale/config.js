@@ -1,27 +1,28 @@
 module.exports = {
-  siteTitle: 'Gatsby Starter Grayscale', // <title>
+  siteTitle: 'Atomos', // <title>
   manifestName: 'Grayscale',
-  manifestShortName: 'Landing', // max 12 characters
+  manifestShortName: 'Landing', // max 12 characters-
   manifestStartUrl: '/',
   manifestBackgroundColor: '#663399',
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/website-icon.png',
   pathPrefix: `/gatsby-starter-grayscale/`, // This path is subpath of your hosting https://domain/portfolio
-  heading: 'Anubhav Srivastava',
-  subHeading: 'Full time Web Developer. Part time Open source contributor  ',
+  heading: 'Atomos',
+  subHeading:
+    'Recoil developer tool to visualize and debug atom-selector relationships in React applications',
 
   // social
   socialLinks: [
     {
       icon: 'fa-github',
       name: 'Github',
-      url: 'https://github.com/anubhavsrivastava',
+      url: 'https://github.com/oslabs-beta/atomos',
     },
     {
       icon: 'fa-linkedin-in',
       name: 'Linkedin',
-      url: 'https://linkedin.com/in/theanubhav/',
+      url: 'https://www.linkedin.com/company/getatomos/',
     },
     {
       icon: 'fa-twitter',
@@ -34,7 +35,7 @@ module.exports = {
       url: 'https://facebook.com/theanubhav',
     },
   ],
-  email: 'anubhav.srivastava00@gmail.com',
+  email: 'atomos.dev@gmail.com',
   phone: '000-00000',
   address: '305 Del Sol, Sunnyvale, CA',
 };
