@@ -9,8 +9,7 @@ module.exports = {
   manifestIcon: 'src/assets/img/website-icon.png',
   pathPrefix: `/gatsby-starter-grayscale/`, // This path is subpath of your hosting https://domain/portfolio
   heading: 'Atomos',
-  subHeading:
-    'Recoil developer tool to visualize and debug atom-selector relationships in React applications',
+  subHeading: 'Recoil developer tool to visualize and debug atom-selector relationships in React applications',
 
   // social
   socialLinks: [
@@ -24,18 +23,8 @@ module.exports = {
       name: 'Linkedin',
       url: 'https://www.linkedin.com/company/getatomos/',
     },
-    {
-      icon: 'fa-twitter',
-      name: 'Twitter',
-      url: 'https://twitter.com/onlyanubhav',
-    },
-    {
-      icon: 'fa-facebook-f',
-      name: 'Facebook',
-      url: 'https://facebook.com/theanubhav',
-    },
+    
+    
   ],
-  email: 'atomos.dev@gmail.com',
-  phone: '000-00000',
-  address: '305 Del Sol, Sunnyvale, CA',
+  
 };

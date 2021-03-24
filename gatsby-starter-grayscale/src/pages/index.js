@@ -5,14 +5,15 @@ import Scroll from '../components/Scroll';
 
 import config from '../../config';
 import Footer from '../components/Footer';
-import SocialLinks from '../components/SocialLinks';
-import Subscribe from '../components/Subscribe';
+import TeamPage from '../components/SocialLinks';
+
 import Header from '../components/Header';
 
-import ipad from '../assets/images/ipad.png';
+import logo from '../assets/img/LogoWhiteTrans.png';
 import demoImage1 from '../assets/images/demo-image-01.jpg';
 import demoImage2 from '../assets/images/demo-image-02.jpg';
 import bgMaster from '../assets/images/bg-masthead.jpg';
+
 
 const IndexPage = () => (
   <Layout>
@@ -27,46 +28,48 @@ const IndexPage = () => (
           </h2>
           <Scroll type="id" element="about">
             <a href="#about" className="btn btn-primary">
-              About
+              DOWNLOAD 
             </a>
           </Scroll>
         </div>
       </div>
     </header>
 
-    <section id="about" className="about-section text-center">
-      <div className="container">
+    <section id="about" className="about-section text-center" style={{"paddingTop":"1vh", "paddingBottom" : "10vh"}}>
+      <div className="container" >
         <div className="row">
-          <div className="col-lg-8 mx-auto">
-            <h2 className="text-white mb-4">Built with Bootstrap 4</h2>
+          <div className="col-lg-8 mx-auto" style={{"marginBottom":"5vh"}}>
+        <img style={{"maxHeight": "15vh" , "marginBottom": "5vh"}} src={logo} className="img-fluid" alt="" />
+            <h2 className="text-white mb-4">ATOMOS</h2>
             <p className="text-white-50">
-              Grayscale is a free Bootstrap theme created by Start Bootstrap. It
-              can be yours right now, simply download the starter on
-              <a href="https://github.com/anubhavsrivastava/gatsby-starter-grayscale">
-                the github repo
-              </a>
-              .
+            Atomos is an open source Chrome developer tool for Recoil that 
+            provides real-time visualization of the component tree and atom-selector relationships 
+            to facilitate the debugging of a React application.
             </p>
           </div>
         </div>
-        <img src={ipad} className="img-fluid" alt="" />
       </div>
     </section>
 
     <section id="projects" className="projects-section bg-light">
       <div className="container">
-        <div className="row align-items-center no-gutters mb-4 mb-lg-5">
-          <div className="col-xl-8 col-lg-7">
-            <img className="img-fluid mb-3 mb-lg-0" src={bgMaster} alt="" />
+      <div className="row justify-content-center no-gutters">
+          <div className="col-lg-6">
+            <img className="img-fluid" src={demoImage2} alt="" />
           </div>
-          <div className="col-xl-4 col-lg-5">
-            <div className="featured-text text-center text-lg-left">
-              <h4>Shoreline</h4>
-              <p className="text-black-50 mb-0">
-                Grayscale is open source and MIT licensed. This means you can
-                use it for any project - even commercial projects! Download it,
-                customize it, and publish your website!
-              </p>
+          <div className="col-lg-6 order-lg-first">
+            <div className="bg-black text-center h-100 project">
+              <div className="d-flex h-100">
+                <div className="project-text w-100 my-auto text-center text-lg-right">
+                  <h4 className="text-white">Mountains</h4>
+                  <p className="mb-0 text-white-50">
+                    Another example of a project with its respective
+                    description. These sections work well responsively as well,
+                    try this theme on a small screen!
+                  </p>
+                  <hr className="d-none d-lg-block mb-0 mr-0" />
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -113,11 +116,9 @@ const IndexPage = () => (
         </div>
       </div>
     </section>
-
-    <Subscribe />
-
-    <SocialLinks />
+    <TeamPage  />
     <Footer />
+    
   </Layout>
 );
 
