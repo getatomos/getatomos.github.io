@@ -40,7 +40,7 @@ export default class Header extends Component {
         id="mainNav"
       >
         <div className="container">
-          <a className="navbar-brand" href="#page-top">
+          <a className="navbar-brand" href="https://www.getatomos.io">
             {config.siteTitle}
           </a>
           <button
@@ -79,7 +79,7 @@ export default class Header extends Component {
                   element="projects"
                 >
                   <a className="nav-link" href="#projects">
-                    Projects
+                    Features
                   </a>
                 </Scroll>
               </li>

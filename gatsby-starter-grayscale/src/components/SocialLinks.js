@@ -1,11 +1,11 @@
 
 import React from "react";
 import {  MDBRow, MDBCol, MDBCard, MDBCardBody, MDBIcon } from "mdbreact";
-import suminkim from '../assets/img/katesumin.png'
-import vickilee from '../assets/img/vicki.png'
+import sumin from '../assets/img/katesumin.png'
+import vicki from '../assets/img/vicki.png'
 import jonathan from '../assets/img/jonathanM1.png'
-import cole from '../assets/img/coleRed.png'
-import config from '../../config'
+import cole from '../assets/img/ColePic.png'
+
 
 const TeamPage = () => {
   return (
@@ -22,14 +22,13 @@ const TeamPage = () => {
             <MDBCol lg="3" md="6" className="mb-lg-0 mb-5">
               <img
                 tag="img"
-                src={suminkim}
+                src={sumin}
                 className="rounded-circle z-depth-1 img-fluid"
                 alt="Sample avatar"
               />
               <h5 className="font-weight-bold mt-4 mb-3">Sumin Kim</h5>
               <p className="text-uppercase blue-text">Software Engineer</p>
               <p className="grey-text">
-                
               </p>
               <ul className="list-unstyled mb-0">
               <a href="https://github.com/ppsm920" className="p-2 fa-lg">
@@ -44,14 +43,13 @@ const TeamPage = () => {
             <MDBCol lg="3" md="6" className="mb-lg-0 mb-5">
               <img
                 tag="img"
-                src={vickilee}
+                src={vicki}
                 className="rounded-circle z-depth-1 img-fluid"
                 alt="Sample avatar"
               />
               <h5 className="font-weight-bold mt-4 mb-3">Vicki Lee</h5>
               <p className="text-uppercase blue-text">Software Engineer</p>
               <p className="grey-text">
-                
               </p>
               <ul className="list-unstyled mb-0">
               <a href="https://github.com/vlee022" className="p-2 fa-lg">
@@ -72,8 +70,7 @@ const TeamPage = () => {
               />
               <h5 className="font-weight-bold mt-4 mb-3">Jonathan Mendoza</h5>
               <p className="text-uppercase blue-text">Software Engineer</p>
-              <p className="grey-text">
-                
+              <p className="grey-text">  
               </p>
               <ul className="list-unstyled mb-0">
               <a href="https://github.com/mendxza" className="p-2 fa-lg">
@@ -95,7 +92,6 @@ const TeamPage = () => {
               <h5 className="font-weight-bold mt-4 mb-3">Cole Redfearn</h5>
               <p className="text-uppercase blue-text">Software Engineer</p>
               <p className="grey-text">
-                
               </p>
               <ul className="list-unstyled mb-0">
               <a href="https://github.com/coleredfearn" className="p-2 fa-lg">
