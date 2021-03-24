@@ -12,7 +12,7 @@ import Header from '../components/Header';
 import logo from '../assets/img/LogoWhiteTrans.png';
 import demoImage1 from '../assets/images/demo-image-01.jpg';
 import demoImage2 from '../assets/images/demo-image-02.jpg';
-import bgMaster from '../assets/images/bg-masthead.jpg';
+
 
 
 const IndexPage = () => (
