@@ -94,6 +94,14 @@ export default class Header extends Component {
                   </a>
                 </Scroll>
               </li>
+              <li className="nav-item">
+                
+                  <a className="nav-link" href="https://github.com/oslabs-beta/atomos">
+                    Github
+                  </a>
+             
+              </li>
+             
             </ul>
           </div>
         </div>
