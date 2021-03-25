@@ -23,11 +23,11 @@ const IndexPage = () => (
           <h2 className="text-white-50 mx-auto mt-2 mb-5" >
             {config.subHeading}
           </h2>
-          <Scroll type="id" element="about">
-            <a href="#about" className="btn btn-primary">
+          {/* <Scroll type="id" element="about"> */}
+            <a href="https://github.com/oslabs-beta/atomos" className="btn btn-primary">
               Install
             </a>
-          </Scroll>
+          {/* </Scroll> */}
         </div>
       </div>
     </header>
