@@ -9,7 +9,7 @@ module.exports = {
   manifestIcon: 'src/assets/img/AtomosBrowserIcon2.png',
   pathPrefix: `/gatsby-starter-grayscale/`, // This path is subpath of your hosting https://domain/portfolio
   heading: 'Atomos',
-  subHeading: 'Recoil developer tool to visualize and debug atom-selector relationships in React applications',
+  subHeading: 'Recoil developer tool to visualize and debug atom/selector relationships in React applications',
 
   // social
   socialLinks: [
