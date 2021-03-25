@@ -76,7 +76,7 @@ const TeamPage = () => {
               <a href="https://github.com/mendxza" className="p-2 fa-lg">
                   <MDBIcon fab icon="github" className="blue-text" />
               </a>   
-              <a href="#!" className="p-2 fa-lg">
+              <a href="https://www.linkedin.com/in/jonathan-mendoza1" className="p-2 fa-lg">
                   <MDBIcon fab icon="linkedin-in" className="blue-text" />
                 </a>
               </ul>
