@@ -90,7 +90,7 @@ export default class Header extends Component {
                   element="signup"
                 >
                   <a className="nav-link" href="#signup">
-                    Contact
+                    Team
                   </a>
                 </Scroll>
               </li>

@@ -6,8 +6,9 @@ import Footer from '../components/Footer';
 import TeamPage from '../components/SocialLinks';
 import Header from '../components/Header';
 import logo from '../assets/img/LogoWhiteTrans.png';
-import demoImage1 from '../assets/images/demo-image-01.jpg';
-import demoImage2 from '../assets/images/demo-image-02.jpg';
+import stateSelection from '../assets/img/stateSelection.gif';
+import dynamicRendering from '../assets/img/DynamicRender.gif';
+import componentTree from '../assets/img/ComponentTree.png'
 
 
 
@@ -19,12 +20,12 @@ const IndexPage = () => (
       <div className="container d-flex h-100 align-items-center">
         <div className="mx-auto text-center">
           <h1 className="mx-auto my-0 text-uppercase">{config.heading}</h1>
-          <h2 className="text-white-50 mx-auto mt-2 mb-5">
+          <h2 className="text-white-50 mx-auto mt-2 mb-5" >
             {config.subHeading}
           </h2>
           <Scroll type="id" element="about">
             <a href="#about" className="btn btn-primary">
-              DOWNLOAD 
+              Install
             </a>
           </Scroll>
         </div>
@@ -38,9 +39,9 @@ const IndexPage = () => (
         <img style={{"maxHeight": "15vh" , "marginBottom": "5vh"}} src={logo} className="img-fluid" alt="" />
             <h2 className="text-white mb-4">ATOMOS</h2>
             <p className="text-white-50" >
-            Atomos is an open source Chrome developer tool for Recoil that 
+            Atomos is an open-source Chrome developer tool for Recoil that 
             provides real-time visualization of the component tree and atom-selector relationships 
-            to facilitate the debugging of a React application.
+            to facilitate debugging of React applications.
             </p>
           </div>
         </div>
@@ -51,17 +52,16 @@ const IndexPage = () => (
       <div className="container">
       <div className="row justify-content-center no-gutters">
           <div className="col-lg-6">
-            <img className="img-fluid" src={demoImage2} alt="" />
+            <img className="img-fluid" src={componentTree} alt="" />
           </div>
           <div className="col-lg-6 order-lg-first">
             <div className="bg-black text-center h-100 project">
               <div className="d-flex h-100">
                 <div className="project-text w-100 my-auto text-center text-lg-right">
-                  <h4 className="text-white">Mountains</h4>
+                  <h4 className="text-white">Component Tree</h4>
                   <p className="mb-0 text-white-50">
-                    Another example of a project with its respective
-                    description. These sections work well responsively as well,
-                    try this theme on a small screen!
+                  Atomos analyzes Recoil applications and renders 
+                  interactive component trees powered by React Flow
                   </p>
                   <hr className="d-none d-lg-block mb-0 mr-0" />
                 </div>
@@ -72,16 +72,16 @@ const IndexPage = () => (
 
         <div className="row justify-content-center no-gutters mb-5 mb-lg-0">
           <div className="col-lg-6">
-            <img className="img-fluid" src={demoImage1} alt="" />
+            <img className="img-fluid" src={dynamicRendering} alt="" />
           </div>
           <div className="col-lg-6">
             <div className="bg-black text-center h-100 project">
               <div className="d-flex h-100">
                 <div className="project-text w-100 my-auto text-center text-lg-left">
-                  <h4 className="text-white">Misty</h4>
+                  <h4 className="text-white">Dynamic Rendering</h4>
                   <p className="mb-0 text-white-50">
-                    An example of where you can put an image of a project, or
-                    anything else, along with a description.
+                  Atomos dynamically renders the component tree as the application changes 
+                  - no need to reload the app
                   </p>
                   <hr className="d-none d-lg-block mb-0 ml-0" />
                 </div>
@@ -92,17 +92,16 @@ const IndexPage = () => (
 
         <div className="row justify-content-center no-gutters">
           <div className="col-lg-6">
-            <img className="img-fluid" src={demoImage2} alt="" />
+            <img className="img-fluid" src={stateSelection} alt="" />
           </div>
           <div className="col-lg-6 order-lg-first">
             <div className="bg-black text-center h-100 project">
               <div className="d-flex h-100">
                 <div className="project-text w-100 my-auto text-center text-lg-right">
-                  <h4 className="text-white">Mountains</h4>
+                  <h4 className="text-white">Atoms and Selectors</h4>
                   <p className="mb-0 text-white-50">
-                    Another example of a project with its respective
-                    description. These sections work well responsively as well,
-                    try this theme on a small screen!
+                  Atomos tracks atoms and selectors throughout the application 
+                  and selectively highlights them on the component tree to streamline the debugging process
                   </p>
                   <hr className="d-none d-lg-block mb-0 mr-0" />
                 </div>
@@ -110,6 +109,7 @@ const IndexPage = () => (
             </div>
           </div>
         </div>
+        
       </div>
     </section>
     <TeamPage  />
