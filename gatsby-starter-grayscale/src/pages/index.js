@@ -6,7 +6,7 @@ import Footer from '../components/Footer';
 import TeamPage from '../components/SocialLinks';
 import Header from '../components/Header';
 import logo from '../assets/img/LogoWhiteTrans.png';
-import stateSelection from '../assets/img/stateSelection.gif';
+import atomSelector from '../assets/img/atomSelector.gif';
 import dynamicRendering from '../assets/img/DynamicRender.gif';
 import componentTree from '../assets/img/ComponentTree.png'
 
@@ -92,7 +92,7 @@ const IndexPage = () => (
 
         <div className="row justify-content-center no-gutters">
           <div className="col-lg-6">
-            <img className="img-fluid" src={stateSelection} alt="" />
+            <img className="img-fluid" src={atomSelector} alt="" />
           </div>
           <div className="col-lg-6 order-lg-first">
             <div className="bg-black text-center h-100 project">
